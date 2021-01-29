@@ -1,0 +1,740 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: 
+}
+body{
+	overflow-x: hidden;
+}
+li{
+	list-style-type: none;
+}
+a:hover{
+	text-decoration: none;
+}
+.why-choose-us{
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+.why-choose-us h2{
+	text-transform: uppercase;
+	font-family: 'Bodoni Moda', serif;
+	color: rgb(179, 143, 0);
+}
+.why-choose-us h6{
+	margin-bottom: 100px;
+	font-family: 'Playfair Display', serif;
+	font-weight: bold;
+}
+.why-choose-us-subsection{
+	display: flex;
+	flex-direction: column;
+	margin-top: 30px;
+}
+.why-choose-us-subsection .image-wrapper{
+	float: right;
+}
+.why-choose-us h3,.why-choose-us h4{
+font-family: 'Bodoni Moda', serif;
+margin-top: 20px;
+color:rgb(179, 143, 0);
+}
+.why-choose-us-subsection-image .image-wrapper{
+	display: flex;
+	flex-direction:row;
+	justify-content: center;
+	padding-top: 100px;
+}
+.why-choose-us-subsection-image img{
+	height: 450px;
+	width: 500px;
+	border-radius: 50%;
+}
+.why-choose-us-button{
+	margin-top: 50px;
+	display: flex;
+	justify-content: center;
+}
+.why-choose-us-button button{
+	border: 1px solid rgb(179, 143, 0);
+	border-radius: 30px;
+	border: 1px solid rgb(179, 143, 0);
+	color: rgb(179, 143, 0);
+}
+.why-choose-us-button button:hover{
+	background-color: rgb(179, 143, 0);
+	color: #fff;
+}
+
+/*how we work*/
+.how-we-work{
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+.how-we-work h2{
+	text-transform: uppercase;
+	font-family: 'Bodoni Moda', serif;
+	margin-bottom: 100px;
+		color: rgb(179, 143, 0);
+}
+.how-we-work-subsection .image-wrapper img{
+	width: 80%;
+}
+.how-we-work-subsection h4{
+	margin-top: 30px;
+	margin-bottom: 20px;
+	text-align: center;
+	color:rgb(179, 143, 0);
+}
+.how-we-work-subsection p{
+	text-align: center;
+}
+
+/*what we offer*/
+.what-we-offer{
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+.what-we-offer h2{
+	text-transform: uppercase;
+	font-family: 'Bodoni Moda', serif;
+	margin-bottom: 20px;
+		color: rgb(179, 143, 0);
+}
+.what-we-offer h6{
+	margin-bottom: 100px;
+	font-family: 'Playfair Display', serif;
+	font-weight: bold;
+	color:#000;
+}
+.what-we-offer-slider-section{
+	cursor: pointer;
+	padding-left: 5px;
+}
+.what-we-offer-slider-section-image{
+	transition: 0.7s;
+	margin-bottom: 20px;
+}
+.what-we-offer-slider-section:hover .what-we-offer-slider-section-image{
+	opacity: 0.6;
+}
+.what-we-offer-slider-section:hover .btn-md{
+	display: block;
+	background-color: #000;
+	color: #fff;
+}
+.what-we-offer-slider-section button{
+position: absolute;
+margin-top: 100px;
+margin-left: 80px;
+display: none;
+}
+.what-we-offer-slider-section p a{
+	font-family: 'Playfair Display', serif;
+	font-weight: bold;
+	color:rgb(179, 143, 0);
+}
+.what-we-offer-slider-section h5 a{
+	color: #000;
+}
+
+/*nothing-is-more-important*/
+.nothing-is-more-important{
+	background-image:  linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(https://images.unsplash.com/photo-1549675613-d302ff605a5c?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1052&q=80);
+	background-position: fixed;
+	background-size: cover;
+	background-position: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.nothing-is-more-important hr{
+	width: 40%;
+	margin-left: 30%;
+	background-color: #fff;
+}
+.nothing-is-more-important {
+	color: #fff;
+	padding: 0px 100px;
+	margin-bottom: 30px;
+}
+.nothing-is-more-important h2{
+	margin-top: 50px;
+	text-transform: uppercase;
+	font-family: 'Bodoni Moda', serif;
+		color: rgb(179, 143, 0);
+}
+.nothing-is-more-important h3 a{
+	font-family: 'Playfair Display', serif;
+	color: rgb(255, 204, 0);
+}
+.nothing-is-more-important h4{
+	font-family: 'Playfair Display', serif;
+	color:rgb(179, 143, 0);
+}
+.nothing-is-more-important-icon{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top: 100px;
+}
+.nothing-is-more-important-icon-section img{
+	width: 100px;
+}
+.nothing-is-more-important p{
+	text-transform: capitalize;
+	font-family: 'Bodoni Moda', serif;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	color:rgb(179, 143, 0);
+}
+
+/*about our company*/
+.about-our-company{
+	padding: 50px 0px;
+}
+.about-our-company h2{
+	text-transform: uppercase;
+	font-family: 'Bodoni Moda', serif;
+	margin-bottom: 40px;
+	margin-top: 20px;
+		color: rgb(179, 143, 0);
+}
+.about-our-company button{
+	text-transform: capitalize;
+	color:rgb(179, 143, 0);
+	border: 1px solid rgb(179, 143, 0);
+	font-weight: bold;
+	border-radius: 30px;
+}
+.about-our-company button:hover{
+	color: #fff;
+	background-color:rgb(179, 143, 0); 
+}
+/*testimonials*/
+.testimonials{
+	background-image:  linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(https://images.unsplash.com/photo-1549675613-d302ff605a5c?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1052&q=80);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	margin-bottom: 50px;
+	padding: 50px 100px;
+}
+.testimonials-slide-section{
+	text-align: center;
+}
+.testimonials-slide-section img{
+	float: left;
+}
+.testimonials .image-wrapper{
+	width: 100%;
+	text-align: center;
+}
+.testimonials-slide-section h2{
+	text-transform: uppercase;
+	font-family: 'Bodoni Moda', serif;
+	margin-bottom: 40px;
+	color: #fff;
+	color: rgb(255, 204, 0);
+	text-align: center;
+}
+.testimonials hr{
+	background-color:rgb(179, 143, 0);
+	width: 80%;
+	margin-left: 10%;
+	margin-bottom: 30px;
+	text-align: center;
+}
+.testimonials h3{
+	text-transform: capitalize;
+	font-family: 'Bodoni Moda', serif;
+	margin-bottom: 40px;
+	color:rgb(179, 143, 0);
+	text-align: center;
+}
+.testimonials p{
+	font-family: 'Playfair Display', serif;
+	color: #fff;
+	text-align: center;
+}
+.testimonials-slide-section img{
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	text-align: center;
+}
+
+/*prices*/
+.prices{
+	padding: 50px 0px;
+}
+.prices h2{
+	text-transform: uppercase;
+	font-family: 'Bodoni Moda', serif;
+	margin-bottom: 40px;
+	margin-top: 20px;
+	color: rgb(179, 143, 0);
+}
+.prices .card-title{
+	color: rgb(179, 143, 0);
+}
+.prices .card-body{
+	box-shadow: 0px 0px 10px rgb(179, 143, 0);
+	padding: 20px; 
+}
+.prices ul li{
+	font-family: 'Playfair Display', serif;
+	color: #000;
+	margin-top: 10px;
+}
+.prices button{
+	background-color: rgb(179, 143, 0);
+	color: #fff;
+	border: none;
+}
+
+/*subscribe*/
+.subscribe{
+	padding: 100px 50px;
+	background-image:  linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(https://images.unsplash.com/photo-1549675613-d302ff605a5c?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1052&q=80);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+}
+.subscribe .col-lg-12{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.subscribe h2{
+	font-family: 'Playfair Display', serif;
+	color: #000;
+	font-weight: bold;
+	color: rgb(179, 143, 0);
+}
+.subscribe button{
+	border:2px solid rgb(179, 143, 0);
+	box-shadow: 0px 0px 5px rgb(179, 143, 0);
+}
+
+/*service booking*/
+.service-booking{
+	padding: 50px 0px;
+}
+.service-booking-form{
+	margin-top: 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.service-booking-form input{
+	border: 2px solid rgb(179, 143, 0);
+}
+.service-booking button{
+	background-color: rgb(179, 143, 0);
+	color: #fff;
+	border-radius: 20px;
+}
+/*contact*/
+.map-contact{
+	background-color: #fff;
+	margin-bottom: 200px;
+	padding: 150px 0px; 
+}
+.map-contact h3{
+		text-transform: uppercase;
+		font-family: 'Bodoni Moda', serif;
+		color:rgb(179, 143, 0);
+		margin-top: 30px;
+		margin-bottom: 20px;
+}
+.send-us-msg{
+	padding: 100px 0px;
+}
+.send-us-msg button{
+	background-color: rgb(179, 143, 0);
+	color: #fff;
+	border-radius: 30px;
+}
+.send-us-msg button:hover{
+	background-color: #fff;
+	color: rgb(179, 143, 0);
+	border: 2px solid rgb(179, 143, 0);
+}
+
+
+/*about page*/
+.aboutpage-our-company{
+	background-color:  rgb(179, 143, 0);
+	padding: 50px 0px;
+	margin-top: 0px;
+}
+.aboutpage-our-company h2{
+		color: 	#000;
+		text-transform: uppercase;
+		font-family: 'Bodoni Moda', serif;
+		font-weight: bold;
+}
+.aboutpage-our-company p{
+	font-family: 'Playfair Display', serif;
+	color: #fff;
+	font-weight: bold;
+	margin-top: 20px;
+}
+.cleaning-experience{
+	background-color: #fff;
+	padding-bottom: 100px;
+}
+.cleaning-experience .image-wrapper{
+	margin-top: 80px;
+}
+.cleaning-experience h2{
+	text-transform: uppercase;
+		font-family: 'Bodoni Moda', serif;
+		font-weight: bold;
+		color: 	rgb(179, 143, 0);
+		margin-top: 100px;
+		margin-bottom: 50px;
+}
+.our-team{
+	background-color: #fff;
+	padding-bottom: 100px;
+	padding-top: 100px;
+}
+.our-team h2{
+	text-transform: uppercase;
+		font-family: 'Bodoni Moda', serif;
+		font-weight: bold;
+		color:  rgb(179, 143, 0);
+		margin-bottom: 100px;
+}
+.our-team img{
+	margin-bottom: 30px;
+}
+.team-name{
+	text-transform: uppercase;
+		font-family: 'Bodoni Moda', serif;
+		font-weight: bold;
+		color:  rgb(179, 143, 0);
+}
+.our-team hr{
+	width: 40%;
+	margin-left: 30%;
+}
+.team-details{
+	font-family: 'Bodoni Moda', serif;
+		font-weight: bold;
+}
+.our-values h2{
+	text-transform: uppercase;
+		font-family: 'Bodoni Moda', serif;
+		font-weight: bold;
+		color:  rgb(179, 143, 0);
+		margin-bottom: 100px;
+}
+.our-values-image .image-wrapper{
+	padding-top: 30px;
+	text-align: left;
+}
+.our-values-text{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-top: 40px;
+}
+.our-values-heading{
+	display: flex;
+	flex-direction: row;
+}
+.our-values-heading img{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.our-values-heading h4{
+		text-transform: capitalize;
+		font-family: 'Bodoni Moda', serif;
+		color:  rgb(179, 143, 0);
+		font-weight: normal;
+}
+.our-values-subpart{
+	margin-bottom: 20px;
+}
+.our-values-subpart p{
+	text-align: left;
+	font-family: 'Bodoni Moda', serif;
+		font-weight: bold;
+}
+.satisfaction-guaranteed{
+	background-color: #fff;
+	padding-bottom: 100px;
+	padding-top: 100px;
+}
+.satisfaction-guaranteed h3{
+	text-transform: capitalize;
+		font-family: 'Bodoni Moda', serif;
+		color:  rgb(179, 143, 0);
+		font-weight: normal;
+		margin-top: 20px;
+}
+.satisfaction-guaranteed p{
+	font-family: 'Bodoni Moda', serif;
+	font-weight: bold;
+	margin-top: 40px;
+}
+.satisfaction-guaranteed button{
+	background-color: rgb(179, 143, 0);
+	color: #fff;
+	border-radius: 30px;
+	text-transform: capitalize;
+	margin-top: 20px;
+}
+.satisfaction-guaranteed button:hover{
+	background-color: #fff;
+	color: rgb(179, 143, 0);
+	border: 2px solid rgb(179, 143, 0);
+}
+/*product page*/
+.product-rate{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.product-list{
+	background-color: #fff;
+	padding: 100px 0px;
+}
+.product-list .row{
+	margin-top: 30px;
+}
+.product-name{
+	font-family: 'Bodoni Moda', serif;
+	font-weight: bold;
+	text-transform: capitalize;
+	margin-top: 20px;
+	color: rgb(179, 143, 0);
+}
+.product-details{
+	font-family: 'Playfair Display', serif;
+	font-weight: bold;
+}
+.product-price{
+	color: rgb(179, 143, 0);
+}
+.product-rate i{
+	color: rgb(179, 143, 0);
+}
+.product-list-container{
+	border: 1px solid  rgb(179, 143, 0);
+	box-shadow: 0px 0px 10px rgb(179, 143, 0);
+	padding:20px 20px;
+	cursor: pointer;
+}
+.product-list-container .btn1{
+	position: absolute;
+	margin-top: 50px;
+	margin-left: 50px;
+	border: none;
+	background-color: transparent;
+	font-size: 30px;
+	display: none;
+}
+.product-list-container .btn1 i{
+	color:  #000;
+}
+.product-list-container .btn2{
+	position: absolute;
+	margin-top: 50px;
+	margin-left: 100px;
+	border: none;
+	background-color: transparent;
+	font-size: 30px;
+	display: none;
+}
+.product-list-container .btn2 i{
+	color:  #000;
+}
+.product-list-container:hover .product-list-container-image{
+	opacity: 0.5;
+}
+.product-list-container:hover .btn1{
+	display: block;
+}
+.product-list-container:hover .btn2{
+	display: block;
+}
+
+
+/*respomsive*/
+@media only screen and (max-width: 576px){
+	.top-navbar{
+		display: none;
+	}
+	.navbar ul{
+		flex-direction: column;
+	}
+	.navbar .image-wrapper{
+	width: 100px;
+} 
+.slider-text{
+	height: 50vh;
+}
+.slider-text h3{
+	margin-left: 20px;
+	font-size: 20px;
+}
+.slider-text h2{
+	font-size: 35px;
+}
+.why-choose-us-subsection{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.why-choose-us-subsection-image img{
+	height: 250px;
+	width: 250px;
+	border-radius: 50%;
+	margin-bottom: 50px;
+}
+.why-choose-us-subsection p{
+	text-align: center;
+}
+.what-we-offer h2{
+	font-size: 30px;
+}
+.what-we-offer-slider-section img{
+	width: 100%;
+	margin-left: 50px;
+}
+.what-we-offer-slider-section button{
+position: absolute;
+margin-top: 200px;
+margin-left: 130px;
+display: none;
+}
+.nothing-is-more-important-icon{
+	flex-direction: column;
+	margin-bottom: 50px;
+}
+.nothing-is-more-important p{
+	display: none;
+}
+.about-our-company h2{
+	font-size: 20px;
+	font-weight: bold;
+}
+.about-our-company .col-lg-6{
+	text-align: center;
+}
+.prices h2{
+	font-size: 20px;
+	font-weight: bold;
+}
+.card{
+	margin-top: 20px;
+}
+.subscribe .col-lg-12{
+	flex-direction: column;
+}
+.subscribe h2{
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+.footer .row .col-md-3{
+	text-align: center;
+}
+.footer hr{
+	margin-left: 20%;
+}
+.footer-icon{
+	margin-bottom: 30px;
+}
+.aboutpage-our-company{
+	text-align: center;
+}
+.aboutpage-our-company h2{
+	font-size: 25px;
+}
+.cleaning-experience .row .col-lg-6{
+	text-align: center;
+}
+.cleaning-experience h2{
+	font-size: 25px;
+}
+.our-team h2{
+	font-size: 25px;
+	margin-bottom: 50px;
+}
+.team-name{
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+.our-values{
+	padding-bottom: 10px;
+}
+.our-values-subpart{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.our-values-heading h4{
+	text-align: center;
+}
+.our-values-subpart p{
+	text-align: center;
+}
+.satisfaction-guaranteed{
+	padding-top: 50px;
+}
+.satisfaction-guaranteed .container .row{
+	display: flex;
+	flex-direction: column-reverse;
+}
+.satisfaction-guaranteed .container .row .col-lg-6{
+	text-align: center;
+}
+.our-values h2{
+	font-size: 20px;
+}
+.our-team{
+	padding-top: 50px;
+}
+.our-team h2{
+	font-size: 20px;
+}
+.cleaning-experience{
+	padding-bottom: 50px;
+}
+.cleaning-experience h2{
+	font-size: 20px;
+}
+.product-list .col-lg-3{
+	margin-top: 30px;
+}
+.product-list-container .btn1{
+	margin-top: 200px;
+	margin-left: 100px;
+}
+.product-list-container .btn2{
+	margin-top: 200px;
+	margin-left: 150px;
+}
+.map-contact{
+	margin-bottom: 30px;
+
+}
+.map-contact h3{
+	font-weight: bold;
+	font-size: 20px;
+	padding-top: 20px;
+}
+.map-contact p{
+	font-weight: bold;
+}
+.send-us-msg{
+	padding-bottom: 30px;
+}
+}

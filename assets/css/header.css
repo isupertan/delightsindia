@@ -1,0 +1,150 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: 
+}
+body{
+	overflow-x: hidden;
+}
+li{
+	list-style-type: none;
+}
+a:hover{
+	text-decoration: none;
+}
+.header1,.header2,.header3,.header{
+	padding-top: 10px;
+}
+.header .top-navbar ul li,.header1 .top-navbar ul li,.header2 .top-navbar ul li,.header3 .top-navbar ul li{
+	display: inline-block;
+}
+.navbar{
+	background-color: #fff;
+}
+.top-navbar-list{
+	margin-left: 80px;
+}
+.top-navbar-list a{
+	display: flex;
+	flex-direction: row;
+}
+.top-navbar-list-icon{
+	color:rgb(255, 204, 0);
+	margin-top: 5px;
+	font-size: 20px;
+	margin-right: 5px;
+}
+.top-navbar-list a{
+	color:rgb(255, 204, 0);
+	margin-left: 5px;
+	font-family: 'Bodoni Moda', serif;
+}
+.top-navbar-icon{
+	padding: 0px 
+}
+.top-navbar-icon ul{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+}
+.top-navbar-icon i{
+	color:rgb(255, 204, 0);
+	font-size: 20px;
+}
+.header1 hr,.header2 hr,.header3 hr,.header hr{
+	background-color: rgb(179, 143, 0);
+	width: 100%;
+}
+.navbar ul{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	width: 100%;
+}
+.navbar ul li{
+	transition: 0.2s;
+}
+.navbar ul li a{
+	text-transform: uppercase;
+	color:#000;
+	font-family: 'Bodoni Moda', serif;
+	font-weight: bold;
+}
+.navbar ul li:hover{
+	border-bottom: 4px solid #000;
+}
+.slider-text{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 75vh;
+	justify-content: center;
+}
+.slider-text h3{
+	text-transform: capitalize;
+	font-family: 'Bodoni Moda', serif;
+	animation-name: backInDown;
+	animation-duration: 2s;
+	color: rgb(255, 204, 179);
+}
+.slider-text h2{
+	font-size: 100px;
+	font-family: 'Bodoni Moda', serif;
+	animation-name: backInUp;
+	animation-duration: 3s;
+	color:rgb(255, 204, 0);
+}
+.header1{
+	background-image:  linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(https://images.unsplash.com/photo-1524420533980-5fe0aecc5fe6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80);
+	background-position: center;
+	background-size: cover;
+}
+.header2{
+	background-image:  linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(https://images.unsplash.com/photo-1517837817850-607cd9ff1015?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
+	background-position: center;
+	background-size: cover;
+}
+.header3{
+	background-position: center;
+	background-size: cover;
+	background-image:  linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(https://images.unsplash.com/photo-1563453392212-326f5e854473?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
+}
+.contact{
+	background-image:  linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(https://images.unsplash.com/photo-1549675613-d302ff605a5c?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1052&q=80);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+}
+.header h1{
+	font-size: 60px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-align: center;
+	padding: 100px 0px;
+	background-color: rgb(179, 143, 0);
+	font-family: 'Bodoni Moda', serif;
+	color: #000;
+	text-transform: uppercase;
+}
+.contact{
+	background-image:  linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(https://images.unsplash.com/photo-1549675613-d302ff605a5c?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1052&q=80);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+}
+.about .header h1{
+	font-size: 60px;
+	margin-top: 100px;
+	margin-bottom: 0px;
+	text-align: center;
+	padding: 100px 0px;
+	background-color: rgb(179, 143, 0);
+	font-family: 'Bodoni Moda', serif;
+	color: #000;
+	text-transform: uppercase;
+}
+.navbar .image-wrapper{
+	width: 200px;
+}
