@@ -36,15 +36,9 @@
 	font-size: 20px;
 	color: #fff;
 }
-.footer-icon {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	padding: 0px 40px;
-	margin-right: 40px;
-}
 .footer-icon i{
 	color: rgb(179, 143, 0);
+	font-size: 25px;
 }
 .footer .image-wrapper{
 	width: 200px;
@@ -61,5 +55,13 @@
 .footer .col-md-3{
 	display: flex;
 	flex-direction: column;
+	align-items: center;
+}
+.footer .footer-icon {
+	padding: 0px 10px;
+	width: 100%;
+	display: flex !important;
+	flex-direction: row !important;
+	justify-content: space-between !important;
 	align-items: center;
 }

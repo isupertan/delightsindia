@@ -349,6 +349,12 @@ display: none;
 	margin-bottom: 200px;
 	padding: 150px 0px; 
 }
+.map-contact .col-lg-6{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
 .map-contact h3{
 		text-transform: uppercase;
 		font-family: 'Bodoni Moda', serif;
@@ -786,10 +792,11 @@ display: none;
 }
 .map-contact{
 	margin-bottom: 0px;
-	padding: 30px 0px;
+	padding: 20px 0px;
 }
 .send-us-msg{
 	margin-top: 0px;
+	padding: 0px;
 }
 .map-contact h3{
 	font-weight: bold;
