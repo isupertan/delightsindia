@@ -16,21 +16,17 @@ a:hover{
 	height: 15px;
 	display: flex;
 	flex-direction: row;
-}
-.top-navbar-list{
-	margin-left: 80px;
-	margin-bottom: 0px;
-	padding-bottom: 0px;
+	justify-content: space-around;
 }
 .top-navbar-list a{
 	display: flex;
-	flex-direction: row;
+	flex-direction: row !important;
 }
 .top-navbar-list-icon{
 	color:rgb(255, 204, 0);
-	margin-top: 5px;
 	font-size: 20px;
-	margin-right: 5px;
+	margin-right: 2px;
+	margin-top: 3px;
 }
 .top-navbar-list a{
 	color:rgb(255, 204, 0);

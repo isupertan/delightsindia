@@ -49,13 +49,17 @@
 .footer .image-wrapper{
 	width: 200px;
 	margin-top: 50px;
-	margin-left: 100px;
+	text-align: center;
 }
 .footer hr{
 	color: rgb(179, 143, 0);
 	width: 80%;
-	margin-left: 10%;
 }
 .footer p{
 	text-align: center;
+}
+.footer .col-md-3{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }

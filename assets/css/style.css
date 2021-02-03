@@ -110,9 +110,16 @@ color:rgb(179, 143, 0);
 	cursor: pointer;
 	padding-left: 5px;
 }
+.what-we-offer-slider-section .image-wrapper{
+	height: 300px;
+		margin-bottom: 20px;
+}
+.what-we-offer-slider-section .image-wrapper img{
+	height: 100%;
+}
 .what-we-offer-slider-section-image{
 	transition: 0.7s;
-	margin-bottom: 20px;
+
 }
 .what-we-offer-slider-section:hover .what-we-offer-slider-section-image{
 	opacity: 0.6;
@@ -411,24 +418,32 @@ display: none;
 	padding-top: 100px;
 }
 .our-team h2{
-	text-transform: uppercase;
+		text-transform: uppercase;
 		font-family: 'Bodoni Moda', serif;
 		font-weight: bold;
 		color:  rgb(179, 143, 0);
-		margin-bottom: 100px;
+		margin-bottom: 40px;
 }
 .our-team img{
 	margin-bottom: 30px;
+}
+.our-team .image-wrapper{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.our-team .col-lg-4{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 .team-name{
 	text-transform: uppercase;
 		font-family: 'Bodoni Moda', serif;
 		font-weight: bold;
 		color:  rgb(179, 143, 0);
-}
-.our-team hr{
-	width: 40%;
-	margin-left: 30%;
 }
 .team-details{
 	font-family: 'Bodoni Moda', serif;
@@ -441,9 +456,23 @@ display: none;
 		color:  rgb(179, 143, 0);
 		margin-bottom: 100px;
 }
+.our-values .col-lg-6{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.our-values .our-values-text{
+	display: flex;
+	flex-direction:column; 
+	justify-content: center;
+	align-items: center;
+}
 .our-values-image .image-wrapper{
-	padding-top: 30px;
-	text-align: left;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
 }
 .our-values-image .image-wrapper img{
 	margin-top: 30px;
@@ -482,6 +511,12 @@ display: none;
 	background-color: #fff;
 	padding-bottom: 100px;
 	padding-top: 100px;
+}
+.satisfaction-guaranteed .col-lg-6{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 .satisfaction-guaranteed h3{
 	text-transform: capitalize;
@@ -597,7 +632,7 @@ display: none;
 	border: 2px solid rgb(179, 143, 0);
 }
 
-/*respomsive*/
+/*responsive*/
 @media only screen and (max-width: 576px){
 	 html, body {width: auto!important; overflow-x: hidden!important}
 	.top-navbar-icon{
@@ -671,10 +706,10 @@ display: none;
 	margin-bottom: 30px;
 }
 .footer .row .col-md-3{
-	text-align: center;
-}
-.footer hr{
-	margin-left: 20%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 .footer-icon{
 	margin-bottom: 30px;
@@ -750,8 +785,11 @@ display: none;
 	margin-left: 150px;
 }
 .map-contact{
-	margin-bottom: 30px;
-
+	margin-bottom: 0px;
+	padding: 30px 0px;
+}
+.send-us-msg{
+	margin-top: 0px;
 }
 .map-contact h3{
 	font-weight: bold;
