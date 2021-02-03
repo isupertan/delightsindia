@@ -39,16 +39,15 @@ font-family: 'Bodoni Moda', serif;
 margin-top: 20px;
 color:rgb(179, 143, 0);
 }
-.why-choose-us-subsection-image .image-wrapper{
+.why-choose-us-subsection-image{
 	display: flex;
 	flex-direction:row;
 	justify-content: center;
+	align-items: center;
 	padding-top: 100px;
 }
 .why-choose-us-subsection-image img{
-	height: 450px;
-	width: 500px;
-	border-radius: 50%;
+	width: 100%;
 }
 .why-choose-us-button{
 	margin-top: 50px;
@@ -316,6 +315,7 @@ display: none;
 .subscribe button{
 	border:2px solid rgb(179, 143, 0);
 	box-shadow: 0px 0px 5px rgb(179, 143, 0);
+	color: #fff;
 }
 
 /*service booking*/
@@ -388,6 +388,14 @@ display: none;
 }
 .cleaning-experience .image-wrapper{
 	margin-top: 80px;
+	display: flex;
+	width: 100%;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+}
+.cleaning-experience .image-wrapper img{
+	width: 60%;
 }
 .cleaning-experience h2{
 	text-transform: uppercase;
@@ -437,6 +445,10 @@ display: none;
 	padding-top: 30px;
 	text-align: left;
 }
+.our-values-image .image-wrapper img{
+	margin-top: 30px;
+}
+
 .our-values-text{
 	display: flex;
 	flex-direction: column;
@@ -564,19 +576,34 @@ display: none;
 .product-list-container:hover .btn2{
 	display: block;
 }
-
+.product-list-container .image-wrapper{
+	width: auto;
+}
+.product-details-section{
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+.product-details-section button{
+	background-color: rgb(179, 143, 0);
+	color: #fff;
+	border-radius: 30px;
+	text-transform: capitalize;
+	margin-top: 20px;
+	margin-left: 30px;
+}
+.product-details-section button:hover{
+	background-color: #fff;
+	color: rgb(179, 143, 0);
+	border: 2px solid rgb(179, 143, 0);
+}
 
 /*respomsive*/
 @media only screen and (max-width: 576px){
-	.top-navbar{
+	 html, body {width: auto!important; overflow-x: hidden!important}
+	.top-navbar-icon{
 		display: none;
 	}
-	.navbar ul{
-		flex-direction: column;
-	}
-	.navbar .image-wrapper{
-	width: 100px;
-} 
+	.top-navbar{display: none;}
 .slider-text{
 	height: 50vh;
 }
@@ -737,4 +764,35 @@ display: none;
 .send-us-msg{
 	padding-bottom: 30px;
 }
+.navbar{
+	height: 100px;
+}
+.navbar .image-wrapper{
+	margin-left: 0px;
+	margin-top: 0px;
+}
+.navbar .image-wrapper img{
+	width: 80px;
+}
+.navbar{
+	display: flex;
+	flex-direction: row !important;
+	flex-wrap: nowrap !important;
+}
+.navbar-dark .navbar-toggler {
+    color: #000;
+    border-color: #000;
+    background-color: #000;
+    margin-right: 10px;
+}
+#collapsibleNavbar{
+	margin-left: -350px;
+	margin-top: 250px;
+	z-index: 9;
+	background-color: #fff;
+	width: 100%;
+}
+}
+.aboutpage-our-company{
+	z-index: 0;
 }
